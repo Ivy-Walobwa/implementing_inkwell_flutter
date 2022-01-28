@@ -7,12 +7,18 @@ class FingerprintWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Material(
-      shape: RoundedRectangleBorder(
+    return  Material(
+      shape: const RoundedRectangleBorder(
           borderRadius: BorderRadius.all(Radius.circular(50))),
-      child: Icon(
-        Icons.fingerprint,
-        size: 100,
+      child: InkWell(
+        onTap: (){},
+        borderRadius: BorderRadius.circular(50),
+        highlightColor: Colors.blue.withOpacity(0.4),
+        splashColor: Colors.green.withOpacity(0.5),
+        child: const Icon(
+          Icons.fingerprint,
+          size: 100,
+        ),
       ),
     );
   }
