@@ -7,15 +7,12 @@ class FingerprintWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      padding: const EdgeInsets.all(24.0),
-      decoration: BoxDecoration(
-        borderRadius: BorderRadius.circular(50),
-        color: Colors.grey.shade200,
-      ),
-      child: const Icon(
+    return const Material(
+      shape: RoundedRectangleBorder(
+          borderRadius: BorderRadius.all(Radius.circular(50))),
+      child: Icon(
         Icons.fingerprint,
-        size: 70,
+        size: 100,
       ),
     );
   }

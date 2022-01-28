@@ -5,7 +5,7 @@ class ImageWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
+    return Ink(
       width: double.infinity,
       height: 300,
       decoration: BoxDecoration(
