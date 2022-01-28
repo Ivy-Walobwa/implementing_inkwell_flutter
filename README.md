@@ -1,16 +1,10 @@
-# implementing_inkwell_flutter
+#   Implementing `InkWell` Flutter
 
-A new Flutter application.
+## Ripple effect
 
-## Getting Started
+https://user-images.githubusercontent.com/49009293/151614732-0c8e75c6-5a5d-4808-91cd-b1fab4a117d0.mp4
 
-This project is a starting point for a Flutter application.
+## Handling gestures
 
-A few resources to get you started if this is your first Flutter project:
+https://user-images.githubusercontent.com/49009293/151614775-a2471da1-cf2b-4308-9c5a-75953e9fae5e.mp4
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
